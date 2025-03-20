@@ -3,7 +3,7 @@ Input "Enter Number 3 Digit: ", num
 hundredstore = num \ 100
 reminders = num Mod 100
 
-Select Case hundredstore
+Select Case hundredstore                  //rajveer
     Case 1:
         Print "One Hundred ";
     Case 2:
