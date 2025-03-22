@@ -1,0 +1,15 @@
+cls
+Input"Enter Marks",M
+if M>= 300 and M<=500 then 
+print"First Division"
+elseif M<300 and M>=225 then 
+print"Second Division"
+elseif M<225 and M>=150 then
+Print"Third Division" 
+elseif M<150 then
+Print"Fail"
+elseif M>500 then
+Print"Invalid"
+endif
+Print"Result=",M
+
